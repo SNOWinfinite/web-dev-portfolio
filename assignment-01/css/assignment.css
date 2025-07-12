@@ -1,13 +1,25 @@
 
-.open-sans-normal {
-  font-family: "Open Sans", sans-serif;
+
+.raleway-normal {
+  font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
    
   font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
 }
 
+
+.inter-normal {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+   
+  font-style: normal;
+}
+
+body{
+    background-color: rgba(78, 71, 255, 0.01);
+    margin: 0px;
+     
+}
 
 
 /* header styles */
@@ -98,7 +110,7 @@ li{
 /* productive user styles */
 
 .productive-users{
-    background-color: rgba(78, 71, 255, 0.1);
+    background-color: rgba(78, 71, 255, 0.1); 
     border-radius: 24px;
     margin: 116px 159px 0px 141px;
     padding: 50px 142px 50px 142px;
@@ -157,7 +169,7 @@ li{
     border-radius: 14px;
     padding: 24px;
     background-color: rgba(255, 255, 255, 0.5);
-    box-shadow: 1px 1px 1px #F2EDED;
+    border: 1px solid rgba(242, 237, 237, 1);
     width: 366px;
     height: 243px;
     margin: 0 auto;
@@ -181,3 +193,84 @@ li{
     color: #757575;
      
  }
+
+ /* focus styles */
+
+.focus{
+    text-align: center;
+     margin: 137px 149px 0px 151px;
+     padding: 71px 150px 71px 150px;
+     background-color: rgba(255, 255, 255, 1);
+}
+.focus-title{
+    font-size: 50px;
+    margin-bottom: 0px;
+}
+.focus-description{
+    color: rgba(0, 0, 0, 0.5);
+     
+}
+.focus-pic{
+    width: 840px;
+    height: 365px;
+    border-radius: 48px;
+    margin-top: 20px;
+}
+
+/* get in touch and form styles */
+
+.get-in-touch{
+     
+     
+     
+}
+
+.father2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 137px 149px 0px 151px;
+
+}
+.son2{
+     
+    font-weight: bold;font-size: 70px;
+}
+ 
+
+input[type="text"] , input[type="email"]{
+    width: 497px;
+    height: 70px;
+    border-radius: 10px;
+}
+textarea{
+    width: 497px;
+    border-radius: 10px;
+}
+
+.btn-third{
+    width: 503px;
+}
+footer{
+    background-color: rgba(255, 255, 255, 1);
+    padding: 104px 455px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    margin-top: 71px;
+ }
+ .footer-container{
+    text-align: center;
+ }
+ .footer-title{
+    font-weight: bolder;
+    font-size: 100px;
+    color: #4E47FF;
+    margin-bottom: 0px;
+ }
+ .footer-description{
+    color: rgba(137, 135, 161, 1);
+ }
+ a{
+    text-decoration: none;
+    color: rgba(137, 135, 161, 1);
+ }
+ 
