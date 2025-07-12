@@ -39,6 +39,11 @@ body{
     border: none;
 }
 
+.btn-primary:hover{
+    background-color: aqua;
+    cursor: pointer;
+}
+
 /* nav styles */
 
 nav{
